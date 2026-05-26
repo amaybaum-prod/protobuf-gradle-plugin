@@ -137,7 +137,7 @@ dependencies {
     exclude(module = "protobuf-lite")
   }
   protobuf(files("lib/protos.jar"))
-  testImplementation("junit:junit:4.12")
+  testImplementation("junit:junit:4.13.1")
 }
 
 afterEvaluate {
