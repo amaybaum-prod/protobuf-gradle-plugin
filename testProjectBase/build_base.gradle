@@ -26,7 +26,7 @@ dependencies {
 
   implementation protobufDep
   implementation 'javax.annotation:javax.annotation-api:1.3.2'
-  testImplementation 'junit:junit:4.12'
+  testImplementation 'junit:junit:4.13.1'
   // KotlinFooTest.kt requires reflection utilities
   testImplementation "org.jetbrains.kotlin:kotlin-reflect:1.2.0"
   grpcImplementation protobufDep
