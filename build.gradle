@@ -52,7 +52,7 @@ tasks.register('groovydocJar', Jar) {
 }
 
 codenarc {
-    toolVersion = "1.4"
+    toolVersion = "1.6"
     if (System.env.CI == 'true') {
       // Normally html output is more user friendly,
       // but we want a console printable file for CI logs
